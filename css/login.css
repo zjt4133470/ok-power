@@ -1,0 +1,81 @@
+/*第一部分*/
+#cont_1 {
+    width: 100%;
+    height: 580px;
+    background: url("../images/bg/bg4.png") no-repeat;
+    background-position: 0px 170px;
+    padding-top: 62px;
+}
+
+#cont_1 h1 {
+    margin-top: 140px;
+    margin-left: 654px;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #333333;
+}
+
+#cont_1 .cont_1_1 {
+    position: relative;
+    width: 310px;
+    height: 247px;
+    margin-left: 520px;
+    margin-top: 10px;
+}
+
+#cont_1 .cont_1_1 p {
+    width: 310px;
+    height: 30px;
+    line-height: 30px;
+    color: #fe6e6e;
+}
+
+#cont_1 .cont_1_1 .login {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 40px;
+    width: 314px;
+    height: 40px;
+    background-color: #347ffe;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#cont_1 .cont_1_1 input {
+    text-indent: 10px;
+    font-size: 14px;
+    outline: none;
+    width: 310px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.45);
+    border-radius: 4px;
+    border: solid 2px rgba(153, 153, 153, 0.45);
+}
+
+#cont_1 .cont_1_1 input::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #999999;
+}
+
+#cont_1 .cont_1_1 .gain {
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+    top: 85px;
+    font-size: 14px;
+    color: #347ffe;
+}
+
+#cont_1 .cont_1_1 .gain1 {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+    top: 85px;
+    font-size: 14px;
+    color: #999;
+}
+

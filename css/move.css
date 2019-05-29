@@ -1,0 +1,73 @@
+/*主体部分*/
+#cont {
+    width: 100%;
+    margin-top: 62px;
+}
+
+/*第一部分*/
+#cont .cont_1 {
+    height: 710px;
+}
+
+#cont .cont_1 .cont_1_1 {
+    margin-top: 100px;
+    margin-left: 310px;
+    float: left;
+    width: 236px;
+    height: 479px;
+    background-image: url("../images/phone.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#cont .cont_1 .cont_1_1 .img1 {
+    width: 209px;
+    height: 372px;
+    margin-left: 13px;
+    margin-top: 49px;
+}
+
+#cont .cont_1 .cont_1_2 {
+    float: left;
+    margin-left: 100px;
+    margin-top: 157px;
+    width: 500px;
+}
+
+#cont .cont_1 .cont_1_2 img {
+    margin-left: 110px;
+}
+
+#cont .cont_1 .cont_1_2 a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    width: 180px;
+    height: 45px;
+    background-color: #347ffe;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#cont .cont_1 .cont_1_2 .p1 {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333333;
+}
+
+#cont .cont_1 .cont_1_2 .p2 {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+#cont .cont_1 .cont_1_2 .p2 a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #347ffe;
+}

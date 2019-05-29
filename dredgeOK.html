@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta charset="UTF-8">
+    <title>开通OK-power</title>
+    <script src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/commonStyle.css" type="text/css">
+    <link rel="stylesheet" href="css/dredgeOK.css" type="text/css">
+    <link href="images/bitbug_favicon.ico" rel="icon"/>
+</head>
+<body>
+<div id="M">
+    <!--头部-->
+    <div id="head">
+        <div class="head_left">
+            <a href="index.html"><img src="images/LOGO.png"></a>
+            <span class="long"></span>
+            <span class="saas">企业知识资产运营管理SaaS</span>
+        </div>
+        <div class="head_right1">
+                 <span class="head_phone">
+                     欢迎您，<span class="userPhone"></span>
+                 </span>
+            <span class="userOut" style="cursor: pointer">
+                     <a class="out">退出</a>
+                 </span>
+        </div>
+    </div>
+    <!--主题-->
+    <div id="cont">
+        <p>开通OK-Power</p>
+        <div class="cont_1">
+            <!--<label class="lab">选择产品版本</label>-->
+            <!--<div class="cont_input">-->
+                <!--<span>请选择</span>-->
+                <!--&lt;!&ndash;<img src="images/icon/select.png">&ndash;&gt;-->
+            <!--</div>-->
+            <!--<div class="cont_ul">-->
+                <!--<ul>-->
+                    <!--&lt;!&ndash;<li>标准版</li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li>小微企业特惠版（50）</li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li>小微企业特惠版（100）</li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li>小微企业特惠版（200）</li>&ndash;&gt;-->
+                <!--</ul>-->
+                <!--<div class="clear" style="margin-bottom: 15px"></div>-->
+            <!--</div>-->
+            <!--第二部分-->
+            <div class="cont_2">
+                <p>企业信息</p>
+                <div class="cont_2_1">
+                    <label for="firmNames" style="margin-top: 3px">企业名称</label>
+                    <input type="text" name="firmNames" id="firmNames">
+                    <br>
+                    <!--上传logo部分-->
+                    <div id="cont_file2">
+                        <span style="margin-left: 31px">企业LOGO</span>
+                        <div class="cont_file2">
+                            <label for="file2" id="clickFile2">点我上传</label>
+                            <form target="img_file2" id="form2" enctype="multipart/form-data" method="post">
+                                <input type="file" id="file2" name="myfile">
+                                <input type="hidden" name="type" value="logo">
+                            </form>
+                            <iframe name="img_file2" id="img_file2" width="200" height="200" frameborder="0"
+                                    style="display:none"></iframe>
+                        </div>
+                        <span class="logo">LOGO将显示在您开通的OK-Power系统界面中，请上传清晰，大小不超过1M的图片</span>
+                    </div>
+                    <br>
+                    <label for="firmScale">企业规模</label>
+                    <div id="firmScale"><span>请选择</span><img src="images/icon/pull-down.png"></div>
+                    <br>
+                    <div id="firmScale_ul">
+                        <ul>
+                            <!--<li>1-50人</li>-->
+                            <!--<li>51-100人</li>-->
+                            <!--<li>101-200人</li>-->
+                            <!--<li>201-500人</li>-->
+                            <!--<li>501-1000人</li>-->
+                            <!--<li>1001及以上</li>-->
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <br>
+                    <label for="firmPlace">所在行业</label>
+                    <div id="firmPlace"><span>请选择</span><img src="images/icon/pull-down.png"></div>
+                    <br>
+                    <div id="firmPlace_ul">
+                        <ul>
+                            <!--<li>IT服务</li>-->
+                            <!--<li>制造业</li>-->
+                            <!--<li>批发/零售</li>-->
+                            <!--<li>生活服务</li>-->
+                            <!--<li>文化/体育/娱乐业</li>-->
+                            <!--<li>建筑/房地产</li>-->
+                            <!--<li>教育</li>-->
+                            <!--<li>运输/物流/仓储</li>-->
+                            <!--<li>医疗</li>-->
+                            <!--<li>政府</li>-->
+                            <!--<li>金融</li>-->
+                            <!--<li>能源/采矿</li>-->
+                            <!--<li>农林渔牧</li>-->
+                            <!--<li>其他</li>-->
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <label>注册地址</label>
+                    <div class="city"><span>请选择</span><img src="images/icon/pull-down.png"></div>
+                    <span class="city1">省份/城市</span>
+                    <div id="city">
+                        <ul>
+                            <!--<li>1</li>-->
+                            <!--<li>1</li>-->
+                            <!--<li>1</li>-->
+                            <!--<li>1</li>-->
+                            <!--<li>1</li>-->
+                            <!--<li>1</li>-->
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="district"><span>请选择</span><img src="images/icon/pull-down.png"></div>
+                    <span class="district1">区/县</span>
+                    <div id="district">
+                        <ul>
+                            <!--<li>1</li>-->
+                            <!--<li>1</li>-->
+                            <!--<li>1</li>-->
+                            <!--<li>1</li>-->
+                            <!--<li>1</li>-->
+                            <!--<li>1</li>-->
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <input type="text" placeholder="详细地址" class="address">
+                    <label for="institutionNumber" style="margin-left: 156px">组织机构代码</label>
+                    <input style="margin-top: 30px" type="text" name="firmNames" id="institutionNumber">
+                </div>
+            </div>
+            <!--上传照片部分-->
+            <div id="cont_file">
+                <span>营业执照扫描件</span>
+                <div class="cont_file">
+                    <label for="file" id="clickFile">点我上传</label>
+                    <form target="img_file" id="form" enctype="multipart/form-data" method="post">
+                        <input type="file" id="file" name="myfile">
+                        <input type="hidden" name="type" value="companyInfo">
+                    </form>
+                    <iframe name="img_file" id="img_file" width="200" height="200" frameborder="0"
+                            style="display:none"></iframe>
+                </div>
+                <span class="license">营业执照或三证合一证件 (图片小于3M，支持格式jpg\jepg\png\gif\bmp)</span>
+            </div>
+            <hr>
+            <!--管理员信息部分-->
+            <div class="cont_3">
+                <p>管理员信息</p>
+                <div class="cont_3_1">
+                    <label for="Names" style="margin-top: 0">管理员姓名</label>
+                    <input type="text" name="Names" id="Names">
+                    <br>
+                    <label for="Phones" style="margin-top: 0">管理员手机</label>
+                    <input type="text" name="Phones" id="Phones">
+                    <br>
+                    <div style="position: relative">
+                        <label for="codeM" style="margin-top: 0;margin-left: 27px">验证码</label>
+                        <input type="text" name="codeM" id="codeM"><span class="get_codeM">获取验证码</span>
+                        <span class="get_codeM1" style="display: none"><span class="downTime">50</span>S后请重试</span>
+                    </div>
+                    <br>
+                    <label for="email" style="margin-top: 0;margin-left: 14px">联系邮箱</label>
+                    <input type="email" name="email" id="email" style="margin-top: 0px">
+                    <br>
+                    <label for="telPhone" style="margin-top: 0;margin-left: -15px">其他联系方式</label>
+                    <input type="text" name="telPhone" id="telPhone">
+                </div>
+            </div>
+            <!--上传身份证照片部分-->
+            <div id="cont_file1">
+                <span style="margin-left: 30px">身份证照片</span>
+                <div class="cont_file1">
+                    <label for="file1" id="clickFile1">点我上传</label>
+                    <form target="img_file1" id="form1" enctype="multipart/form-data" method="post">
+                        <input type="file" id="file1" name="myfile">
+                        <input type="hidden" name="type" value="idCard">
+                    </form>
+                    <iframe name="img_file1" id="img_file1" width="200" height="200" frameborder="0"
+                            style="display:none"></iframe>
+                </div>
+                <span class="idcar">请上传清晰、无遮挡的身份证照片，大小不要超过3M</span>
+            </div>
+            <!--我同意-->
+            <div id="agree">
+                <input type="checkbox" class="consent"><span>我同意并遵守<a href="service_deal.html"
+                                                                      target="_blank">《服务条款》</a> <a
+                    href="privacy_policy.html" target="_blank">《隐私政策》</a></span>
+            </div>
+            <!--提交-->
+            <button id="from_submit">提交</button>
+        </div>
+    </div>
+    <!--公共底部-->
+    <div id="commonalityFoot">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="service.html">服务与支持</a></li>
+            <li><a href="helpCenter.html">帮助中心</a></li>
+            <li><a href="about.html" target="_blank">关于我们</a></li>
+            <li><a href="service_deal.html" target="_blank">服务条款</a></li>
+            <li><a href="privacy_policy.html" target="_blank">隐私政策</a></li>
+        </ul>
+        <p class="p1">
+            <span class="span1">业务咨询专线</span>
+            <span class="span2">010-62588830</span>
+        </p>
+        <p class="p2">
+            <span class="span1">©北京商状元科技有限公司</span>
+            <span class="span2">京ICP备16045203号-3</span>
+        </p>
+
+    </div>
+    <!--提示框-->
+    <div id="warn">
+        <div class="warn1">
+            <img src="images/icon/warn.png" class="img1">
+            <p class="hint"></p>
+            <img src="images/icon/out.png" class="img2">
+        </div>
+    </div>
+</div>
+<script src="js/commonStyle.js"></script>
+<script src="js/dredgeOK.js"></script>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?495c6c313ffd808ed3fb9a8dba6a3335";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+</body>
+</html>

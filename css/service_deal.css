@@ -1,0 +1,62 @@
+/*主体部分*/
+#cont {
+    width: 100%;
+    margin-top: 62px;
+}
+
+/*第一部分*/
+#cont .cont_1 {
+    margin-top: 112px;
+    width: 908px;
+    margin-left: 230px;
+    border: 1px solid #ddd;
+}
+
+#cont .cont_1 h1 {
+    font-size: 26px;
+    margin-left: 315px;
+    margin-top: 50px;
+}
+
+#cont .cont_1 h4 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 210px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#cont .cont_1 h3 {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#cont .cont_1 h2 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#cont .cont_1 p {
+    width: 808px;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: 3px;
+    line-height: 32px;
+}
+
+#cont .cont_1 p span {
+    font-weight: 600;
+}
+
+#cont .cont_1 ul li {
+    list-style: none;
+    width: 800px;
+    font-size: 14px;
+    margin-left: 50px;
+    line-height: 28px;
+}
